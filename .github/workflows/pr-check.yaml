@@ -2,8 +2,6 @@ name: CD Repo PR Checks
 
 on:
   pull_request:
-    paths:
-      - 'chart/**'
 
 jobs:
   validate-helm:
